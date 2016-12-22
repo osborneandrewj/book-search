@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:text="Lego Ninjago Character Encyclopedia" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/author_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                tools:text="By Claire Sipi" />
+
+            <TextView
+                android:id="@+id/date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                tools:text="Jun 7, 2016" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:text="LEGO® NINJAGO(tm): Character Encyclopedia, a New York Times bestseller, has been updated and expanded with 48 brand-new pages of LEGO NINJAGO minifigures and sets, making it the ultimate book for your little ninja." />
+
+
+    </LinearLayout>
+
+</LinearLayout>

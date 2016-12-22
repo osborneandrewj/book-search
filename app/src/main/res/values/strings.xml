@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookSearch</string>
+
+    <!--Used for the hint in the search box view-->
+    <string name="search_hint">Search...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="empty_state_text">Try a search.</string>
+    <string name="no_network_empty_state_text">No network found!</string>
+    <string name="no_results_found_text">Hmm, didn\'t find anything! Try something else.</string>
+
+
+</resources>
